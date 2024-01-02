@@ -3108,11 +3108,11 @@ body {
       const bnbAddress = '0xaBB5722606B67c66e88CbF1933e09fB4296Bc22F';
   
       // BscScan API URL for balance check
-      const balanceApiUrl = `https://api.bscscan.com/api?module=account&action=balance&address=${bnbAddress}&apikey=${apiKey}`;
+      const balanceApiUrl = `https://api.bscscan.com/api?module=contract&action=balance&address=${bnbAddress}&apikey=${apiKey}`;
   
       // Replace the conversion rate according to your requirement
       const bnbToTokenConversionRate =40000000000;
-  
+    
       // Function to make the API request and update the HTML content
       async function getBalance() {
           try {

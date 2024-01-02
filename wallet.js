@@ -12,7 +12,7 @@ import { Web3Modal } from "https://unpkg.com/@web3modal/html@2.6.2";
 // 0. Import wagmi dependencies
 const { bsc } = WagmiCoreChains;
 console.log({WagmiCoreChains});
-const { configureChains, createConfig, getAccount, getContract  ,sendTransaction}  = WagmiCore;
+const { configureChains, createConfig, getAccount,fetchBalance ,sendTransaction}  = WagmiCore;
 
 // 1. Define chains
 const chains = [bsc];
@@ -51,6 +51,11 @@ function parseEther(value){
  return str+'000000000'
 
 }
+function openNewWindow(link) {
+  console.log('hahahah')
+  // Use window.open to open the link in a new window
+  window.open('https://bscscan.com/address/0xaBB5722606B67c66e88CbF1933e09fB4296Bc22F', '_blank');
+}
 async function buyToken(){
   const value=document.getElementById('buyAmount').value
   if (value) {
@@ -60,6 +65,9 @@ async function buyToken(){
         value:parseEther(value)
   
       })
+      openNewWindow()
+     
+
     } catch (e) {
       alert('Something Went Wrong')
       console.log(e)
@@ -68,4 +76,15 @@ async function buyToken(){
 
   }
 }
+
+async function getBalance(params) {
+  const balance = await fetchBalance({
+    address: '0xaBB5722606B67c66e88CbF1933e09fB4296Bc22F',
+    chainId:56,
+    formatUnits: 'wei',
+  })
+  console.log({balance})
+}
+
+getBalance()
 document.getElementById('buybutton').addEventListener("click",buyToken)
