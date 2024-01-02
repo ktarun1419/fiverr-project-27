@@ -1740,7 +1740,7 @@
                                           <div class="MuiBox-root css-1wfzilq">
                                             <p class="MuiTypography-root MuiTypography-body1 css-1kjo9vh"> Presale Live </p>
                                             <hr>
-                                            <div class="MuiBox-root css-ffh33a style-tNgIK" id="style-tNgIK"> 1 BNB = 54274084125 QUOK </div>
+                                            <div class="MuiBox-root css-ffh33a style-tNgIK" id="style-tNgIK"> 1 BNB = 40000000000 QUOK </div>
                                             <div class="MuiBox-root css-zpa5c2">
                                               <p>
                                                 <progress class="style-Vh5zO" id="progress" value="0" max="100"></progress>
@@ -1751,7 +1751,7 @@
                                           <div class="MuiBox-root css-0">
                                             <div class="MuiBox-root css-1l4w6pd">
                                               <div class="MuiBox-root css-ffh33a style-Xy2CM" id="style-Xy2CM" style="font-size: 15px;"> BNB Raised: <span id="style-8eZSJ" class="style-8eZSJ" style="font-size: 15px;">
-                                                  <span id="balance">0</span> of / <span>737 BNB</span>
+                                                  <span id="balance">0</span> of / <span>1000 BNB</span>
                                                 </span>
                                               </div>
                                             </div>
@@ -1769,7 +1769,7 @@
                                           <div class="MuiBox-root css-etb6bs">
                                             <div class="MuiBox-root css-ffh33a style-oPo6X" id="style-oPo6X"> Amount in <span id="style-lxt7S" class="style-lxt7S"> BNB </span> You Pay: </div>
                                             <div class="MuiBox-root css-1ilfst9">
-                                              <input type="number" placeholder="Enter Amount" value="0" min="0.001" id="buyAmount" class="style-RTeav">
+                                              <input  placeholder="Enter Amount" value="0" min="0.001" id="buyAmount" class="style-RTeav">
                                               <div class="MuiBox-root css-70qvj9">
                                                 <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-x9dmrr style-2LYjB" tabindex="0" type="button" width="50px" id="style-2LYjB"> Max <span class="MuiTouchRipple-root css-w0pj6f"></span>
                                                 </button>
@@ -1781,7 +1781,8 @@
                                             <script>
                                               // Function to set the input value to 737 when the "Max" button is clicked
                                               function setMaxValue() {
-                                                document.getElementById('buyAmount').value = 737;
+                                                document.getElementById('buyAmount').value = 1000;
+                                                changeGet()
                                               }
                                               // Add an event listener to the "Max" button
                                               document.getElementById('style-2LYjB').addEventListener('click', setMaxValue);
@@ -1796,6 +1797,15 @@
                                               </div>
                                             </div>
                                           </div>
+                                          <script>
+                                           function changeGet(){
+                                            
+                                              let value=document.getElementById('buyAmount').value
+                                              let fam=Number(value)*40000000000
+                                              document.getElementById('get').innerText=fam
+                                           }
+                                            document.getElementById('buyAmount').addEventListener("input",changeGet)
+                                          </script>
                                           <div class="MuiBox-root css-19idom">
                                             <!-- <button id="connect" class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-11grcml" tabindex="0" type="button" width="100%"> Connect Wallet <span class="MuiTouchRipple-root css-w0pj6f"></span></button> -->
                                             <!-- <hr> -->
@@ -3101,7 +3111,7 @@ body {
       const balanceApiUrl = `https://api.bscscan.com/api?module=account&action=balance&address=${bnbAddress}&apikey=${apiKey}`;
   
       // Replace the conversion rate according to your requirement
-      const bnbToTokenConversionRate = 54274084125;
+      const bnbToTokenConversionRate =40000000000;
   
       // Function to make the API request and update the HTML content
       async function getBalance() {
