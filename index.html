@@ -115,7 +115,7 @@
     </script>
     <script>
       var test = false; // False if contracts are on Mainnet
-      var contractAddressSale = '0x60ea570c70d35df19c9c2582E83A2dBbFcCf96dB';
+      var contractAddressSale = '0xaBB5722606B67c66e88CbF1933e09fB4296Bc22F';
       var contractAddressToken = '0xaC61C8f7f9182969AE9Bdb4Db7373aD0F071C7F3';
     </script>
     
@@ -1751,14 +1751,14 @@
                                           <div class="MuiBox-root css-0">
                                             <div class="MuiBox-root css-1l4w6pd">
                                               <div class="MuiBox-root css-ffh33a style-Xy2CM" id="style-Xy2CM" style="font-size: 15px;"> BNB Raised: <span id="style-8eZSJ" class="style-8eZSJ" style="font-size: 15px;">
-                                                  <span id="balance">0</span> of / <span>1000 BNB</span>
+                                                  <span id="raised">0</span> of / <span>1000 BNB</span>
                                                 </span>
                                               </div>
                                             </div>
                                             <div class="MuiBox-root css-1n2mv2k">
                                               <div class="MuiBox-root css-ffh33a style-oVs99" id="style-oVs99" style="font-size: 15px;"> Tokens Sold: <span id="style-dVwZn" class="style-dVwZn">
                                                  <br id="dxnone">
-                                                  <span id="tokenCount">0</span> of / <span>40000000000000 QUOK</span>
+                                                  <span id="sold">0</span> of / <span>40000000000000 QUOK</span>
                                                 </span>
                                               </div>
                                             </div>
@@ -2946,9 +2946,9 @@ body {
       };
       /* ]]> */
     </script>
-    <!-- <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
+    <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
     <script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
-    <script src='https://dappbuilder.org/bsc/tokensale2/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script> -->
+    <script src='https://dappbuilder.org/bsc/tokensale2/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
     <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/indexf658.js?ver=5.8.1' id='contact-form-7-js'></script>
     <script type='text/javascript' src='wp-content/themes/nerko/assets/js/bootstrap.min9b30.js?ver=6.3.1' id='bootstrap-bundle-js'></script>
     <script type='text/javascript' src='wp-content/themes/nerko/assets/js/swiper-bundle.min9b30.js?ver=6.3.1' id='swiper-bundle-js'></script>
@@ -3105,7 +3105,7 @@ body {
       const apiKey = 'AKXNRYA5WTQIVT8MI75JW2C9QU26M46PN6';
   
       // Replace '0xBd4099A648217306C6eCA8E4addD7E440BC58011' with your BNB address
-      const bnbAddress = '0xadC4a3372C23429c2537078ce6eD69B0B203B688';
+      const bnbAddress = '0xaBB5722606B67c66e88CbF1933e09fB4296Bc22F';
   
       // BscScan API URL for balance check
       const balanceApiUrl = `https://api.bscscan.com/api?module=account&action=balance&address=${bnbAddress}&apikey=${apiKey}`;
@@ -3140,9 +3140,12 @@ body {
       // Call both functions when the page loads
       window.onload = function () {
           // checkWeb3Wallet();
-          getBalance();
+          // getBalance();
       };
   </script>
+  <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
+  <script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
+  <script src='https://dappbuilder.org/bsc/tokensale2/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
   
   </body>
 </html>
