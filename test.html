@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNB Balance Checker</title>
+</head>
+<body>
+
+<h1>BNB Balance Checker</h1>
+<span id="balance">0</span>
+<span id="tokenCount">0</span>
+
+<script>
+    // Replace 'YOUR_API_KEY' with your actual BscScan API key
+    const apiKey = 'AKXNRYA5WTQIVT8MI75JW2C9QU26M46PN6';
+
+    // Replace '0xBd4099A648217306C6eCA8E4addD7E440BC58011' with your BNB address
+    const bnbAddress = '0xBd4099A648217306C6eCA8E4addD7E440BC58011';
+
+    // BscScan API URL for balance check
+    const balanceApiUrl = `https://api.bscscan.com/api?module=account&action=balance&address=${bnbAddress}&apikey=${apiKey}`;
+
+    // Replace the conversion rate according to your requirement
+    const bnbToTokenConversionRate = 54274084125;
+
+    // Function to make the API request and update the HTML content
+    async function getBalance() {
+        try {
+            const response = await fetch(balanceApiUrl);
+            const data = await response.json();
+
+            if (data.status === '1') {
+                const balance = data.result / 1e18; // Convert balance from wei to BNB
+                document.getElementById('balance').innerText = `${balance}`;
+
+                // Calculate token count based on the conversion rate
+                const tokenCount = balance * bnbToTokenConversionRate;
+                document.getElementById('tokenCount').innerText = `${tokenCount}`;
+            } else {
+                document.getElementById('balance').innerText = 'Error fetching balance';
+                document.getElementById('tokenCount').innerText = 'Error calculating token count';
+            }
+        } catch (error) {
+            console.error('Error fetching balance:', error);
+            document.getElementById('balance').innerText = 'Error fetching balance';
+            document.getElementById('tokenCount').innerText = 'Error calculating token count';
+        }
+    }
+
+    // Call the function to get the balance when the page loads
+    window.onload = getBalance;
+</script>
+
+</body>
+</html>

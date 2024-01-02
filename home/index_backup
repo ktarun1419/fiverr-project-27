@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>QUOKKA COIN</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/quokka-logo-top.png" />
+   
+    
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name=" author" content="" />
+
+    <meta property="og:title" content="Digistic" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".nav-menu">
+    <!-- pre loader :: starts -->
+    <div class="preloader">
+        <div class="preloader_wrap">
+            <img src="./images/quokka-coin.png" alt="Digistic" />
+            <span class="preloader_inner">0%</span>
+        </div>
+        <div class="progress-bar"></div>
+    </div>
+    <!-- pre loader :: ends -->
+
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="nav">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/quokka-logo-top.png" class="social-icon" alt="logo"  /></a>
+                        <a href="index.html"><img src="images/quokka-logo.png" alt="logo"  /></a>
+                    </div>
+
+                    
+                    
+                    
+                    <div class="nav-menu-button">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span> 
+                    </div>
+                    <!-- <div class="button">
+                       <a href="guide.pdf"><button style="border: 1px solid black;">Buy $QUOK</button></a> 
+                    </div> -->
+
+
+                    <div class="nav-menu-wrapper">
+                        <nav class="nav-menu">
+                            <ul class="nav-links">
+                                <li><a href="#home" class="nav-link active">Home</a></li>
+                                <li><a href="#about" class="nav-link">About</a></li>
+                                <li><a href="#collection" class="nav-link">Collections</a></li>
+                                <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                                <li><a href="#faqs" class="nav-link">FAQs</a></li>
+                                <li><a href="http://quok.io/blogs/blogs/" class="nav-link">Blogs</a></li>
+                                <li><a href="https://quok.gitbook.io/whitepaper_rev1/" class="nav-link">Whitepaper</a></li>
+                                <li><a href="guide.pdf" class="nav-link">How to buy</a></li>
+                               
+                            </ul>
+                            <div class="nav-social">
+                                <a href="https://twitter.com/quokkatoken" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/quokkatoken"><i class="fa-brands fa-telegram"></i></a>
+                                <a href="https://discord.gg/dfZufmgCTq" class="discord"><i class="fa-brands fa-discord"></i></a>
+                                
+
+                            </div>
+                            <div class="nav-img infiniteBounce">
+                                <img src="images/nav-wrapper-img.png" alt="nav-img">
+                            </div>
+                            <div class="nav-shapes">
+                                <img class="particle-black infiniteZoomInOut" src="images/particle-black.png"
+                                    alt="nav-shapes">
+                                <img class="particle-white infiniteZoomInOut" src="./images/particle-white.png"
+                                    alt="nav-shapes" />
+                                <img class="particle-orange infiniteZoomInOut" src="./images/particle-orange.png"
+                                    alt="nav-shapes" />
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <section class="banner" id="home">
+                <div class="banner-wrapper">
+                    <div class="banner-content">
+                        <h5 class="wow animate__fadeInDown">A new Way to play And earn</h5>
+                        <h2 class="section-title">
+                            <span class="wow animate__fadeIn" data-wow-duration="1s"
+                                data-wow-delay="0.5s">BATTLE</span><br />
+                            <span class="lined wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="1.2s"></span>WIN</span><br />
+                            <span class="wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="2s">EARN.</span>
+                        </h2>
+                        <!-- <h6 class="wow animate__fadeInDown">CONTRACT ADDRESS : <a href="https://bscscan.com/address/0xaC61C8f7f9182969AE9Bdb4Db7373aD0F071C7F3">0xaC61C8f7f9182969AE9Bdb4Db7373aD0F071C7F3</a></h6>  -->                   
+                        <div class="label">
+                            CONTRACT ADDRESS :
+                        </div>
+	                            <div class="copy-text">
+		                            <input type="text" class="text" value="0xaC61C8f7f9182969AE9Bdb4Db7373aD0F071C7F3" />
+		                          <button><i class="fa fa-clone"></i></button>
+	                            </div>
+                    </div>
+                    <img class="banner-3 infiniteBounce" src="images/banner-img-3.png" alt="banner-img" />
+                    <img class="wavy-partical wow animate__flipInX" data-wow-delay="0.4s" src="images/banner-wave.png"
+                        alt="banner-vector-shapes">
+
+                    <div class="banner-floating-images">
+                        <div class="banner-img-wrapper">
+                            <span></span>
+                            <span></span>
+                            <img class="particle-black infiniteZoomInOut" src="images/particle-black.png"
+                                alt="floating-img" />
+                            <img class="particle-white infiniteZoomInOut" src="./images/particle-white.png"
+                                alt="floating-img" />
+                            <img class="particle-orange infiniteZoomInOut" src="./images/particle-orange.png"
+                                alt="floating-img" />
+                            <img class="banner-1 infiniteBounce" src="images/banner-quokka.png" alt="banner-img">
+                            <img class="banner-2 infiniteBounce" src="images/banner-img-2.png" alt="banner-img">
+                            <img class="banner-4 infiniteBounce" src="images/banner-img-4.png" alt="banner-img">
+                            <img class="banner-5 infiniteBounce" src="images/banner-img-5.png" alt="banner-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about-wrapper">
+                        <h5 class="section-subtitle wow animate__fadeInUp" data-wow-delay="0.4s">
+                            ABOUT
+                        </h5>
+                        <h1 class="wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">CHECK OUT THE <br />AWESOME THINGS ABOUT <br>QUOKKA COIN </h1>
+
+                      
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <div class="graphic-imgs">
+                                    <img class="spiral-arrow wow animate__fadeInUp" data-wow-delay="0.4s"
+                                        src="images/spiral-arrow.png" alt="floating-img">
+                                    <img class="particle-black infiniteBounce" src="images/particle-black.png"
+                                        alt="floating-img">
+                                    <img class="particle-white infiniteBounce" src="./images/particle-white.png"
+                                        alt="floating-img" />
+                                    <img class="particle-orange" infiniteBounce src="./images/particle-orange.png"
+                                        alt="floating-img" />
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <p class="wow animate__fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+                                    Unleash the ultimate gaming experience with a brand new adventure that brings families, friends, and the whole Quokka($QUOK)
+                                     community together for a thrilling battle contest! Get ready to compete in fierce games and come out on top to win prized
+                                      Quokka tokens as rewards. Don't miss this electrifying opportunity to show your skills and have a blast with loved ones!
+                                </p>
+                               
+                                <button class="btn btn-outline-primary wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="1.3s" data-bs-toggle="modal">
+                                    <a href="Quokka-Whitepaper.pdf">WHITEPAPER</a>
+                                 </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features owl-carousel owl-theme ">
+                    <div class="feature feature-1">
+                        <div class="feature-content wow animate__fadeInLeft" data-wow-duration="1s"
+                            data-wow-delay="0.3s">
+                            
+                            <h4>PLAY</h4>
+                            <p>There are already millions of users around the world playing and earning, and getting in early (NOW) is important so you can succeed too.</p>
+                        </div>
+                        <div class="feature-img wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <img src="images/feature-1.png" class="infiniteBounce" alt="">
+                        </div>
+                    </div>
+                    <div class="feature feature-2">
+                        <div class="feature-content wow animate__fadeInLeft" data-wow-duration="1s"
+                            data-wow-delay="0.3s">
+                            
+                            <h4>EARN</h4>
+                            <p>Join a new platform, It's an opportunity for gamers platform where you can battle to earn coins and make money in the real life.</p>
+                        </div>
+                        <div class="feature-img wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <img src="images/feature-2.png" class="infiniteBounce" alt="">
+                        </div>
+                    </div>
+                    <div class="feature feature-3">
+                        <div class="feature-content wow animate__fadeInLeft" data-wow-duration="1s"
+                            data-wow-delay="0.3s">
+                            
+                            <h4>JOIN</h4>
+                            <p>Socialize with fellows, learn game strategies, & collaborate with the most outstanding online gaming community today via discord.</p>
+                        </div>
+                        <div class="feature-img wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <img src="images/feature-4.png" class="infiniteBounce" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class="collection-nft" id="collection">
+                <div class="container">
+                    <div class="collection-wrapper">
+                        <h5 class="section-subtitle wow animate__fadeInUp" data-wow-delay="0.4s">
+                           COLLECTIBLES NFTs
+                        </h5>
+                        <h2 class="section-title wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                            COMMING <br> SOON
+                        </h2>
+                    </div>
+                </div>
+                <ul class="collection-list">
+                    <li class="card"><img src="images/collection-1-img-1.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-1-img-2.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-1-img-3.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-1-img-4.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-1-img-5.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-1-img-1.png" class="nft" alt="nft"></li>
+                </ul>
+                <ul class="collection-list reverse">
+                    <li class="card"><img src="images/collection-2-img-1.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-2-img-2.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-2-img-3.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-2-img-4.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-2-img-5.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-2-img-1.png" class="nft" alt="nft"></li>
+                </ul>
+                <ul class="collection-list">
+                    <li class="card"><img src="images/collection-3-img-1.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-3-img-2.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-3-img-3.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-3-img-4.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-3-img-5.png" class="nft" alt="nft"></li>
+                    <li class="card"><img src="images/collection-3-img-1.png" class="nft" alt="nft"></li>
+                </ul>
+            </section>
+
+            <section class="roadmap" id="roadmap">
+                <div class="container">
+                    <div class="roadmap-wrapper">
+                        <h5 class="section-subtitle wow animate__fadeInUp" data-wow-delay="0.4s">
+                            ROADMAP
+                        </h5>
+                        <h2 class="section-title wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">OUR
+                            GOAL <br /> AND AIM TO TAKE <br />IT NEXT LEVEL.
+                            <img class=" spiral-arrow wow animate__fadeInUp" data-wow-delay="0.4s"
+                                src="images/spiral-arrow.png" alt="vector-shape">
+                        </h2>
+                        <div class="vector-shapes">
+                            <img class="particle-black" src="images/particle-black.png" alt="vector-shape">
+                            <img class="wavy-particle" src="./images/wavy-partical.jpg" alt="vector-shape">
+                        </div>
+                        <ul class="phase-list">
+                            <li class="phase ">
+                                <div class="row" >
+                                    <div class="col-sm-6" >
+                                        <div class="phase-content wow animate__fadeInLeft" data-wow-duration="1s"
+                                            data-wow-delay="0.3s">
+                                            <h6>Build The Audience</h6>
+                                            <h3>Phase 1</h3>
+                                            <p>Building QUOKKA community with family and friends to the gaming world with a revolutionary new approach to earning rewards!</p>
+                                        </div>
+                                    </div>
+                                    <div class=" col-sm-6">
+                                        <div class="phase-img-box  wow animate__fadeInRight" data-wow-duration="1s"
+                                            data-wow-delay="0.3s">
+                                            <img class="phase-art-img infiniteBounce" src="images/phase-1.png"
+                                                alt="phase-1">
+
+                                            <div class="particle-wrap">
+                                                <img src="images/particle-black.png" class="infiniteZoomInOut"
+                                                    alt="particle">
+                                                <img src="images/particle-white.png" class="infiniteZoomInOut"
+                                                    alt="particle">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="phase phase-reverse">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="phase-content  wow animate__fadeInRight" data-wow-duration="1s"
+                                            data-wow-delay="0.4s">
+                                            <h6>Focus on Game Platform</h6>
+                                            <h3>Phase 2</h3>
+                                            <p>Engineering a new way of how we play games.The game-changer that's shaking up the digital currency world! Say goodbye to the conventional "play to earn" concept and embrace the excitement of "battle to earn"</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="phase-img-box  wow animate__fadeInLeft" data-wow-duration="1s"
+                                            data-wow-delay="0.4s">
+                                            <img class="phase-art-img infiniteBounce" src="images/phase-2.png"
+                                                alt="phase-2">
+
+                                            <div class="particle-wrap">
+                                                <img src="images/particle-orange.png" class="infiniteZoomInOut"
+                                                    alt="particle">
+                                                <img src="images/particle-white.png" class="infiniteZoomInOut"
+                                                    alt="particle">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="phase">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="phase-content  wow animate__fadeInLeft" data-wow-duration="1s"
+                                            data-wow-delay="0.5s">
+                                            <h6>Battle</h6>
+                                            <h3>Phase 3</h3>
+                                            <p>Join the battle contest and show off your skills as you engage in epic battles and come out victorious to win Quokka tokens. It's time to put your game face on and let the battles begin!</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="phase-img-box  wow animate__fadeInRight" data-wow-duration="1s"
+                                            data-wow-delay="0.5s">
+                                            <!-- <img class="phase-art-img infiniteBounce" src="images/phase-3.png"
+                                                alt="phase-3"> -->
+                                                <img class="phase-art-img infiniteBounce" width="100%" src="images/shield.png"
+                                                alt="phase-4">
+
+                                            <div class="particle-wrap">
+                                                <img class="img-small" src="images/particle-white.png"
+                                                    class="infiniteZoomInOut" alt="particle">
+                                                <img src="images/particle-white.png" class="infiniteZoomInOut"
+                                                    alt="particle">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="phase phase-reverse">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="phase-content  wow animate__fadeInRight" data-wow-duration="1s"
+                                            data-wow-delay="0.6s">
+                                            <h6>3D Metaverse</h6>
+                                            <h3>Phase 4</h3>
+                                            <p>Quokka's exciting plans for the future! Get ready to enter the METAVERSE, where you'll experience a virtual world like never before. with cutting-edge technologies at your fingertips, you'll have access to thrilling battle contest games that will take your skills and push you to the limits. Don't miss this opportunity to join us on the brink of a new era and be part of a truly revolutionary experience!</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="phase-img-box  wow animate__fadeInLeft" data-wow-duration="1s"
+                                            data-wow-delay="0.6s">
+                                            <!-- <img class="phase-art-img infiniteBounce" src="images/phase-4.png"
+                                                alt="phase-4"> -->
+                                                <img class="phase-art-img infiniteBounce" width="100%" src="images/phase-13.png"
+                                                alt="phase-3">
+
+                                            <div class="particle-wrap">
+                                                <img src="images/particle-orange.png" class="infiniteZoomInOut"
+                                                    alt="particle">
+                                                <img src="images/particle-white.png" class="infiniteZoomInOut"
+                                                    alt="particle">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="team" id="team">
+                <div class="container">
+                    <div class="team-wrapper">
+                        <h5 class="section-subtitle wow animate__fadeInUp" data-wow-delay="0.4s">
+                            TEAM
+                        </h5>
+                        <h2 class="section-title wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                            MEET
+                            OUR <br /> AWESOME <br />TEAM.</h2>
+                        <img class="team-spiral-arrow wow animate__fadeInUp" data-wow-delay="0.4s"
+                            src="images/spiral-arrow.png" alt="graphic-imgs">
+                        <ul class="row g-4 team-content">
+                            <li class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="team-member card-1 wow animate__fadeInUp" data-wow-duration="1s"
+                                    data-wow-delay="0.3s">
+                                    <div class="team-member-img">
+                                        <img src="images/team-member-1.png" alt="team-member">
+                                    </div>
+                                    <img src="images/team-particle-orange.png" alt="graphic-imgs" />
+                                    <div class="team-member-info">
+                                        <span class="member-designation">Founder</span>
+                                        <h6>Sophia Jones</h6>
+                                        <p class="member-info">Eget tellus tincidunt viverra. Vivamus nec
+                                            aliquet turpis. In accumsan velit quis odio vestibudunt viverra.
+                                            Vivamus nec aliquet turpis. In acm, sit amet mattis nisl accumsan.
+                                        </p>
+                                        <div class="member-social-icon">
+                                            <a href="#!" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#!" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#!" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="team-member card-2 wow animate__fadeInUp" data-wow-duration="1s"
+                                    data-wow-delay="0.4s">
+                                    <div class="team-member-img">
+                                        <img src="images/team-member-2.png" alt="team-member">
+                                    </div>
+                                    <img src="images/team-particle-orange.png" alt="graphic-imgs" />
+
+                                    <div class="team-member-info">
+                                        <span class="member-designation">Co-Founder</span>
+                                        <h6>Cristina Bob</h6>
+                                        <p class="member-info">Eget tellus tincidunt viverra. Vivamus nec
+                                            aliquet turpis. In accumsan velit quis odio vestibudunt viverra.
+                                            Vivamus nec aliquet turpis. In acm, sit amet mattis nisl accumsan.
+                                        </p>
+                                        <div class="member-social-icon">
+                                            <a href="#!" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#!" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#!" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="team-member card-3 wow animate__fadeInUp" data-wow-duration="1s"
+                                    data-wow-delay="0.5s">
+                                    <div class="team-member-img">
+                                        <img src="images/team-member-3.png" alt="team-member">
+                                    </div>
+                                    <img src="images/team-particle-orange.png" alt="graphic-imgs" />
+
+                                    <div class="team-member-info">
+                                        <span class="member-designation">Technical Head</span>
+                                        <h6>Christopher Mitchell</h6>
+                                        <p class="member-info">Eget tellus tincidunt viverra. Vivamus nec
+                                            aliquet turpis. In accumsan velit quis odio vestibudunt viverra.
+                                            Vivamus nec aliquet turpis. In acm, sit amet mattis nisl accumsan.
+                                        </p>
+                                        <div class="member-social-icon">
+                                            <a href="#!" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#!" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#!" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="team-member card-4 wow animate__fadeInUp" data-wow-duration="1s"
+                                    data-wow-delay="0.4s">
+                                    <div class="team-member-img">
+                                        <img src="images/team-member-4.png" alt="team-member">
+                                    </div>
+                                    <img src="images/team-particle-orange.png" alt="graphic-imgs" />
+
+                                    <div class="team-member-info">
+                                        <span class="member-designation">Developer</span>
+                                        <h6>Jennifer Jones</h6>
+                                        <p class="member-info">Eget tellus tincidunt viverra. Vivamus nec
+                                            aliquet turpis. In accumsan velit quis odio vestibudunt viverra.
+                                            Vivamus nec aliquet turpis. In acm, sit amet mattis nisl accumsan.
+                                        </p>
+                                        <div class="member-social-icon">
+                                            <a href="#!" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#!" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#!" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="team-member card-5 wow animate__fadeInUp" data-wow-duration="1s"
+                                    data-wow-delay="0.5s">
+                                    <div class="team-member-img">
+                                        <img src="images/team-member-5.png" alt="team-member">
+                                    </div>
+                                    <img src="images/team-particle-orange.png" alt="graphic-imgs" />
+
+                                    <div class="team-member-info">
+                                        <span class="member-designation">Creative Head</span>
+                                        <h6>Grayson Bastin</h6>
+                                        <p class="member-info">Eget tellus tincidunt viverra. Vivamus nec
+                                            aliquet turpis. In accumsan velit quis odio vestibudunt viverra.
+                                            Vivamus nec aliquet turpis. In acm, sit amet mattis nisl accumsan.
+                                        </p>
+                                        <div class="member-social-icon">
+                                            <a href="#!" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#!" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#!" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="team-member card-6 wow animate__fadeInUp" data-wow-duration="1s"
+                                    data-wow-delay="0.6s">
+                                    <div class="team-member-img">
+                                        <img src="images/team-member-6.png" alt="team-member">
+                                    </div>
+                                    <img src="images/team-particle-orange.png" alt="graphic-imgs" />
+
+                                    <div class="team-member-info">
+                                        <span class="member-designation">Graphic Designer</span>
+                                        <h6>Nova Abbott</h6>
+                                        <p class="member-info">Eget tellus tincidunt viverra. Vivamus nec
+                                            aliquet turpis. In accumsan velit quis odio vestibudunt viverra.
+                                            Vivamus nec aliquet turpis. In acm, sit amet mattis nisl accumsan.
+                                        </p>
+                                        <div class="member-social-icon">
+                                            <a href="#!" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#!" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#!" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section> -->
+            <section class="join-community">
+                <div class="container-fluid">
+                    <div class="join-us-wrapper animate__fadeIn" data-wow-delay="0.4s">
+                        <span></span>
+                        <span></span>
+                        <img class="wavy-partical animate__flipInX" data-wow-delay="0.8s" src="images/banner-wave.png"
+                            alt="particle">
+                        <img class="particle-black infiniteZoomInOut" src="images/particle-black.png" alt="particle">
+                        <img class="particle-white infiniteZoomInOut" src="./images/particle-white.png"
+                            alt="particle" />
+                        <img class="particle-orange infiniteZoomInOut" src="./images/particle-orange.png"
+                            alt="particle" />
+
+                        <img class="image-1 infiniteBounce" src="images/commuter-1.jpg" alt="commuters">
+                        <img class="image-2 infiniteBounce" src="images/commuter-2.jpg" alt="commuters">
+                        <img class="image-3 infiniteBounce" src="images/commuter-3.jpg" alt="commuters">
+                        <img class="image-4 infiniteBounce" src="images/commuter-4.jpg" alt="commuters">
+                        <img class="image-5 infiniteBounce" src="images/commuter-5.jpg" alt="commuters">
+                        <div class="join-us-content">
+                            <h5 class="section-subtitle wow animate__fadeInUp" data-wow-delay="0.4s">
+                                LET'S
+                            </h5>
+                            <h2 class="section-title wow animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay="0.4s">
+                                JOIN OUR<br />COMMUNITY</h2>
+                            
+                            <button class="btn btn-outline-primary wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="1.3s" data-bs-toggle="modal">
+                               <a href="guide.pdf">How To Buy</a>
+                            </button>
+                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="faq-section" id="faqs">
+                <div class="container">
+                    <div class="faq-wrapper">
+                        <h5 class="section-subtitle wow animate__fadeInUp" data-wow-delay="0.4s">
+                            FAQ
+                        </h5>
+                        <h2 class="section-title wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                            HAVE
+                            ANY <br /> QUESTIONS?</h2>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="particle-orange" src="./images/particle-orange.png" alt="particle" />
+                                <img class="particle-black" src="./images/particle-black.png" alt="particle" />
+                                <img class="wavy-particle" src="./images/wavy-partical.jpg" alt="particle">
+                            </div>
+                            <div class="col-lg-7 col-sm-12">
+                                <ul class="faq-accordian">
+                                    <li class="faq-accordian-item  wow animate__fadeInRight" data-wow-duration="1s"
+                                        data-wow-delay="0.3s">
+                                        <div class="accordian-title open">
+                                            What is Quokka coin ?
+                                        </div>
+                                        <div class="accordian-content" style="display: block;">
+                                            Step into the future of cryptocurrency with Quokka-the game-changer that's shaking up the digital currency world! Say goodbye to the conventional "play to earn" concept and embrace the excitement of "battle to earn".
+                                        </div>
+                                    </li>
+                                    <li class="faq-accordian-item  wow animate__fadeInRight" data-wow-duration="1s"
+                                        data-wow-delay="0.4s">
+                                        <div class="accordian-title">
+                                           How to earn QUOK coin ?
+                                        </div>
+                                        <div class="accordian-content">
+                                           Join the Battle Contest and show off your skills as you engage in epic battles and come out victorious to win coveted Quokka tokens. It's time to put your game face on and let the battles begin!
+                                        </div>
+                                    </li>
+                                    <li class="faq-accordian-item  wow animate__fadeInRight" data-wow-duration="1s"
+                                        data-wow-delay="0.5s">
+                                        <div class="accordian-title">
+                                            How can I stay updated about QUOK coin?
+                                        </div>
+                                        <div class="accordian-content">
+                                            You can stay updated about Quokka by joining Quokka on social media and also by joining Quokka on discord.
+                                        </div>
+                                    </li>
+                                    <li class="faq-accordian-item  wow animate__fadeInRight" data-wow-duration="1s"
+                                        data-wow-delay="0.6s">
+                                        <div class="accordian-title">
+                                            How does Quokka economy work? 
+
+                                        </div>
+                                        <div class="accordian-content">
+                                            QUOKKA’s economy works according to the principles of supply and demand. If you are interested in more information about the Upland economy, please check out the Upland Handbook and join our Discord here.
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-cont">
+                    <h2 class="section-title wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">FOLLOW
+                        US <br /> ON SOCIAL MEDIA</h2>
+                    
+                    <div class="row g-5 g-md-4 justify-content-between">
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <a href="https://twitter.com/quokkatoken" class="social-icon twitter wow animate__fadeInUp" data-wow-duration="0.6s"
+                                data-wow-delay="0.3s"><img src="images/twitter-logo.png" alt=""></a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <a href="https://t.me/quok_token" class="social-icon facebook wow animate__fadeInUp" data-wow-duration="1s"
+                                data-wow-delay="0.4s">
+                                <img src="images/telegram.png" alt="" /></a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <a href="https://www.facebook.com/groups/305174309079725" class="social-icon insta wow animate__fadeInUp" data-wow-duration="1.5s"
+                                data-wow-delay="0.5s"><img src="images/facebook-logo.png" alt="" /></a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <a href="https://discord.gg/VTQH8wPE6b" class="social-icon insta wow animate__fadeInUp" data-wow-duration="1.5s"
+                                data-wow-delay="0.5s"><img src="images/discord.png" alt="" /></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="copyright-para wow animate__fadeInUp" data-wow-duration="1.6s">
+                     Copyright &copy; 2023 | Quokka Token</a>. All rights
+                    reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
