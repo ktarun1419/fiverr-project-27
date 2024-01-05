@@ -12,7 +12,7 @@ import { Web3Modal } from "https://unpkg.com/@web3modal/html@2.6.2";
 // 0. Import wagmi dependencies
 const { bsc } = WagmiCoreChains;
 console.log({WagmiCoreChains});
-const { configureChains, createConfig, getAccount,fetchBalance ,sendTransaction}  = WagmiCore;
+const { configureChains, createConfig, getAccount, readContract,fetchBalance ,sendTransaction}  = WagmiCore;
 
 // 1. Define chains
 const chains = [bsc];
@@ -78,13 +78,36 @@ async function buyToken(){
 }
 
 async function getBalance(params) {
-  const balance = await fetchBalance({
+  const balance = await readContract({
     address: '0xaBB5722606B67c66e88CbF1933e09fB4296Bc22F',
     chainId:56,
-    formatUnits: 'wei',
+    abi:[
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "totalRaised",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    method:'totalRaised'
+    
   })
-  console.log({balance})
+  // console.log({})
+ let numberValue= Number(balance)/10**18
+ document.getElementById('raised').innerText=numberValue
+document.getElementById("sold").innerText=numberValue*40000000000000
 }
+document.addEventListener('DOMContentLoaded', function() {
+  getBalance()
+}, false);
 
-getBalance()
+// getBalance()
 document.getElementById('buybutton').addEventListener("click",buyToken)
